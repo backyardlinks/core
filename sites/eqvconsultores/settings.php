@@ -752,6 +752,10 @@ $settings['file_scan_ignore_directories'] = [
 # if (file_exists(__DIR__ . '/settings.local.php')) {
 #   include __DIR__ . '/settings.local.php';
 # }
+
+$config['system.logging']['error_level'] = 'verbose';
+
+
 $databases['default']['default'] = array (
   'database' => 'sites/eqvconsultores/files/db/.ht.sqlite',
   'prefix' => '',
